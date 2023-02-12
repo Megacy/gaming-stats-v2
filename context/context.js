@@ -40,7 +40,7 @@ export const ContextProvider = ({ children }) => {
                 payload: res.data.results
             })
         } catch (error) {
-            console.log(err);
+            console.log(error);
         }
     }
 
@@ -65,7 +65,7 @@ export const ContextProvider = ({ children }) => {
                 payload: res.data.results
             })
         } catch (error) {
-            console.log(err);
+            console.log(error);
         }
     }
 
@@ -79,7 +79,7 @@ export const ContextProvider = ({ children }) => {
                 payload: res.data.results
             })
         } catch (error) {
-            console.log(err);
+            console.log(error);
         }
     }
 
@@ -94,7 +94,7 @@ export const ContextProvider = ({ children }) => {
             })
             setSearching(true)
         } catch (error) {
-            console.log(err);
+            console.log(error);
         }
     }
 

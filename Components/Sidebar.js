@@ -43,7 +43,7 @@ function Sidebar() {
                     <Link href={'/help'}>Help</Link>
                 </div>
                 <p>
-                    &copy;Copyright 2022 <Link href={'/'}>SnippetMaster</Link>
+                    &copy;Copyright 2023 <Link href={'/'}>Moses Moreira</Link>
                 </p>
             </footer>
         </SidebarStyled>
